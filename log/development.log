@@ -385,3 +385,11 @@ Processing by SongsController#index as HTML
 Completed 200 OK in 165ms (Views: 161.1ms | ActiveRecord: 0.7ms)
 
 
+Started GET "/songs/new" for 193.37.253.141 at 2019-04-24 18:16:36 +0000
+Cannot render console from 193.37.253.141! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SongsController#new as HTML
+  Rendering songs/new.html.erb within layouts/application
+  Rendered songs/new.html.erb within layouts/application (98.8ms)
+Completed 200 OK in 103ms (Views: 102.4ms | ActiveRecord: 0.0ms)
+
+
