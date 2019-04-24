@@ -651,3 +651,6 @@ Processing by SongsController#show as HTML
 Completed 200 OK in 4925ms (Views: 4911.7ms | ActiveRecord: 2.4ms)
 
 
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "songs" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "Mombo No. 5"], ["created_at", "2019-04-24 18:46:17.060571"], ["updated_at", "2019-04-24 18:46:17.060571"]]
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
